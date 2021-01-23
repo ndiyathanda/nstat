@@ -1,3 +1,3 @@
 int main(){
-system(./nstat.sh);
+system("./nstat.sh");
 }
