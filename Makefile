@@ -1,2 +1,2 @@
 build:
-	g++ nstat.cpp -o nstat -Wno-all;
+	gcc nstat.c -o nstat -Wno-all;
