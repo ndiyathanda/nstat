@@ -1,1 +1,1 @@
-int main(){system("./nstat.sh");}
+int main(){system("./nstat.sh");printf("sieam");}
