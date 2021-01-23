@@ -1,1 +1,3 @@
-int main(){system("./nstat.sh");printf("sieam");}
+int main(){
+ printf("System kernel");system("uname -srm");
+}
