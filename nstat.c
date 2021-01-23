@@ -1,3 +1,3 @@
 int main(){
- printf("System kernel"/n);system("uname -srm");
+cout<<"System kernel"<<endl;system("uname -srm");
 }
