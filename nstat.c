@@ -1,5 +1,3 @@
 int main(){
-system("ls");
-system("cd /usr/share/nstat/");
-system("./nstat.sh");
+system("sh /usr/share/nstat/nstat.sh");
 }
