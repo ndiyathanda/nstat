@@ -14,4 +14,5 @@ echo Memory usage; free -t | awk 'NR == 2 {print $3/$2*100"%"}'
 sleep 2
 clear
 done");
+return 0;
 }
