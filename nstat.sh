@@ -17,6 +17,6 @@ echo
 echo Memory usage; free -t | awk 'NR == 2 {print $3/$2*100"%"}'
 echo
 echo Average ping
-ping -c 4 google.com | tail -1| awk '{print $4}' | cut -d '/' -f 1
+ping -c 2 google.com | tail -1| awk '{print $4}' | cut -d '/' -f 1
 sleep 1
 done
