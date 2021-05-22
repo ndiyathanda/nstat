@@ -1,5 +1,6 @@
 while :
 do
+clear
 echo "System kernel:";uname -srm 
 echo -e "Uptime:";uptime
 echo -e CPU info:
@@ -13,5 +14,4 @@ echo -e Memory usage; free -t | awk 'NR == 2 {print $3/$2*100"%"}'
 echo -e Average ping
 ping -c 4 google.com | tail -1| awk '{print $4}' | cut -d '/' -f 2
 sleep 1
-clear
 done
